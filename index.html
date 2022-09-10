@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Textbooks</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="flex justify-between mx-40 mt-2">
+        <nav class="flex items-center">
+            <a href="index.html" class="text-cyan-900 text-base mr-6">Главная</a>
+            <a href="" class="text-cyan-900 text-base mr-6">Литература</a>
+            <a href="" class="text-cyan-900 text-base">Контакты</a>
+        </nav>
+        <a href="index.html" class="flex flex-col items-center">
+            <img src="/assets/logo.png" alt="Логотип">
+            <p class="text-cyan-900 text-base font-bold">Textbooks</p>
+        </a>
+        <div class="flex justify-end items-center">
+            <p class="text-cyan-900 mr-6">+7 (999) 999-99-99</p>
+            <img class="cursor-pointer" width="36" height="36" src="/assets/basket.svg" alt="Корзина">
+        </div>
+    </header>
+
+    <!-- Секция с книгами -->
+    <section class="bg-blue-50 h-screen pt-4 flex flex-row">
+        <div class="w-1/3 flex flex-col items-center">
+            <div class="relative transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-300">
+                <img class="absolute -left-12 bottom-32 z-0" src="/assets/angl.png" alt="Книга по изучению английского" />
+                <div class="flex flex-row z-50">
+                    <img class="z-10" src="/assets/book_angl.png" alt="Книга по изучению английского" />
+                </div>
+            </div>
+            <div class="px-14 -mt-8 flex flex-col items-center">
+                <h3 class="text-cyan-900 font-bold mb-6 text-lg text-center">Бонк, Бонк, Левина: Английский шаг за шагом. Полный курс (+СD)</h3>
+                <p  class="text-cyan-900 mb-5 text-base text-center">Это классическое учебное пособие - настольная книга нескольких поколений изучающих английский язык. В нем вы найдете последовательно выстроенный курс английского грамматики и множество упражнений.</p>
+                <input class="cursor-pointer rounded-3xl bg-orange-600 text-white text-center h-10 w-44" type="button" value="Купить" />
+            </div>
+        </div>
+        <div class="w-1/3 flex flex-col items-center">
+            <div class="relative transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-300">
+                <img class="absolute left-0 top-0 z-0" src="/assets/deuth.png" alt="Книга по изучению немецкого" />
+                <div class="flex flex-row z-50">
+                    <img class="z-10" src="/assets/book_deuth.png" alt="Книга по изучению английского" />
+                </div>
+            </div>
+            <div class="px-14 -mt-8 flex flex-col items-center">
+                <h3 class="text-cyan-900 font-bold mb-6 text-lg text-center">Наталия Ганина: Немецкий язык. Новейший самоучитель с аудиокурсом</h3>
+                <p  class="text-cyan-900 mb-5 text-base text-center">Настоящий самоучитель содержит 50 уроков, в которых последовательно представлены ключевые темы грамматики и лексики немецкого языка, а также упражнения для закрепления пройденного материала.</p>
+                <input class="cursor-pointer rounded-3xl bg-orange-600 text-white text-center h-10 w-44" type="button" value="Купить" />
+            </div>
+        </div>
+        <div class="w-1/3 flex flex-col items-center overflow-visible">
+            <div class="relative transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-300">
+                <img class="absolute -right-16 bottom-32 z-0" src="/assets/france.png" alt="Книга по изучению немецкого" />
+                <div class="flex flex-row z-50">
+                    <img class="z-10" src="/assets/book_france.png" alt="Книга по изучению французского" />
+                </div>
+            </div>
+            <div class="px-14 -mt-8 flex flex-col items-center">
+                <h3 class="text-cyan-900 font-bold mb-6 text-lg text-center">Виктория Килеева: Французский язык с нуля. Интенсивный упрощенный курс</h3>
+                <p  class="text-cyan-900 mb-5 text-base text-center">Этот самоучитель создан опытным преподавателем <br /> французского языка по разработанной ею <br /> упрощенной методике и направлен на эффективное овладение живой разговорной речью.</p>
+                <input class="cursor-pointer rounded-3xl bg-orange-600 text-white text-center h-10 w-44" type="button" value="Купить" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция с ромбами -->
+    <section class="bg-blue-50  flex items-center justify-center relative height-rhombus__block">
+        <img class="height-rhombus" src="/assets/rhombus.png">
+        <div class="grid grid-cols-5 z-50 mt-96">
+            <div class="bg-no-repeat bg-[url('/assets/polygon.svg')] polygon flex flex-col items-center justify-center col-start-1 col-span-1 ">
+                <img class="mb-6" src="/assets/star.svg">
+                <h3 class="px-14 text-center text-white font-bold text-xl">Последние новинки</h3>
+            </div>
+            <div class=" bg-no-repeat bg-[url('/assets/polygon.svg')] polygon flex flex-col items-center justify-center col-start-3 col-span-1">
+                <img class="mb-6" src="/assets/car.svg" alt="">
+                <h3 class="px-14 text-center text-white font-bold text-xl">Срочная доставка</h3>
+            </div>
+            <div class=" bg-no-repeat bg-[url('/assets/polygon.svg')] polygon flex flex-col items-center justify-center col-start-5 col-span-1">
+                <img class="mb-6" src="/assets/pay.svg" alt="">
+                <h3 class="px-14 text-center text-white font-bold text-xl">Все способы оплаты</h3>
+            </div>
+            <div class=" bg-no-repeat bg-[url('/assets/polygon.svg')] polygon flex flex-col items-center justify-center col-start-2 col-span-1 -mt-24">
+                <img class="mb-6" src="/assets/clock.svg" alt="">
+                <h3 class="px-14 text-center text-white font-bold text-xl">Самовывоз через 15 мин</h3>
+            </div>
+            <div class=" bg-no-repeat bg-[url('/assets/polygon.svg')] polygon flex flex-col items-center justify-center col-start-4 col-span-1 -mt-24">
+                <img class="mb-6" src="/assets/home.svg" alt="">
+                <h3 class="px-14 text-center text-white font-bold text-xl">Доставка на дом</h3>
+            </div>
+            <div class=" bg-no-repeat bg-[url('/assets/polygon.svg')] polygon flex flex-col items-center justify-center col-start-3 col-span-1 -mt-24">
+                <img class="mb-6" src="/assets/pig.svg" alt="">
+                <h3 class="px-24 text-center text-white font-bold text-xl">Низкие цены</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция с цитатой -->
+    <section class="bg-[url('/assets/books.png')] h-screen flex items-center ">   
+        <h1 class="text-center mt-48 text-orange-600 font-bold text-6xl block overflow-hidden whitespace-nowrap w-full"><span class="inline-block marquee">«Change your life today. Don’t gamble on the future, act now, without delay.»</span></h1>
+    </section>
+
+    <!-- Секция с формой -->
+    <section class="flex justify-between px-80 pt-16 pb-28 bg-blue-50">
+        <div class="flex flex-col justify-start">
+            <h3 class="text-cyan-900 font-bold mb-6 text-lg">Если у Вас остались какие-либо вопросы, свяжитесь с нами!</h3>
+            <p class="text-cyan-900 mb-6 text-base">Любой ваш вопрос не останется без должного внимания!</p>
+            <form class="flex flex-col" action="" method="post">
+                <input class="mb-6 rounded-3xl h-10 w-72 text-center" type="text" name="" id="" placeholder="Ваше имя" />
+                <input class="mb-6 rounded-3xl h-10 w-72 text-center" type="tel" name="" id="" placeholder="Ваш телефон" />
+                <input class="mb-6 rounded-3xl h-10 w-72 text-center" type="email" name="" id="" placeholder="Ваш e-mail" />
+                <textarea  class="mb-6 rounded-3xl h-24 w-72 pt-1 text-center resize-none" name="" id="" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+                <input class="cursor-pointer rounded-3xl bg-orange-600 text-white h-10 w-44" type="submit" value="Задать вопрос">
+            </form>
+        </div>
+        <img src="/assets/lang.png" alt="Одобрено всеми">
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex justify-between bg-cyan-900 px-40 pt-2">
+        <a href="index.html" class="flex flex-col items-center">
+            <img src="/assets/logo_white.png" alt="Логотип">
+            <p class="text-white text-base font-bold">Textbooks</p>
+        </a>
+        <nav class="flex items-center">
+            <a href="index.html" class="text-white text-base mr-6">Главная</a>
+            <a href="" class="text-white text-base mr-6">Литература</a>
+            <a href="" class="text-white text-base">Контакты</a>
+        </nav>
+        <img class="cursor-pointer" width="36" height="36" src="/assets/basket_white.svg" alt="Корзина">
+    </footer>
+</body>
+</html>
